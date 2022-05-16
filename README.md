@@ -1,3 +1,8 @@
+# Automated Stock Trading with Deep Reinforcement Learning: Extending an Ensemble Strategy
+This repository was originally cloned from https://github.com/AI4Finance-Foundation/Deep-Reinforcement-Learning-for-Automated-Stock-Trading-Ensemble-Strategy-ICAIF-2020, where the code for Yang et al.'s paper "Deep Reinforcement Learning for Automated Stock Trading: An Ensemble Strategy" lives. Executables and instructions are the same, so I have included the README file text below. The changes/contributions I have made to this project are (1) modifying models.py to include an SAC model and record results for each individual algorithm and (2) the summarizing_results.ipynb file where (highly influcenced by the backtesting.ipynb file) I conglomerate and summarize results from running the project. Other notes: use python 3.6 and if you run into problems with pyfolio modify the timeseries.py script. Everything below this is from Yang et al.'s README file.
+
+
+
 # Deep Reinforcement Learning for Automated Stock Trading: An Ensemble Strategy
 This repository provides codes for [ICAIF 2020 paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3690996)
 
